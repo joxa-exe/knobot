@@ -11,7 +11,7 @@ class Config:
     ADMIN_ID: int = int(os.getenv("ADMIN_ID", "1179710266"))
 
     # Database
-    DATABASE_URL: str = os.getenv("DATABASE_URL", "postgresql://postgres:TUBRGikqczkWdvbVOYpuaquDbxvamQoE@yamabiko.proxy.rlwy.net:59015/railway")
+    DATABASE_URL: str = os.getenv("DATABASE_URL", "postgresql+asyncpg://postgres:TUBRGikqczkWdvbVOYpuaquDbxvamQoE@yamabiko.proxy.rlwy.net:59015/railway")
 
     # Qolganlari
     CHANNEL_USERNAME: str = os.getenv("CHANNEL_USERNAME", "")
